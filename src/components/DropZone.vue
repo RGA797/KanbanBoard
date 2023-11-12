@@ -17,6 +17,7 @@
         type: Number,
         required: true,
       },
+      title: String
     },
     methods: {
       handleDrop(event) {

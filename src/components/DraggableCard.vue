@@ -52,6 +52,10 @@ export default {
 
 <style scoped>
 .card {
+  max-width: 300px; /* or any other value that fits your design */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
   position: relative;
   background-color: #f7d1cd; 
   color: var(--secondary-color);
@@ -62,18 +66,24 @@ export default {
 }
 
 .title{
+  width: calc(100% - 100px); 
+  box-sizing: border-box; 
   color: var(--secondary-color);
   border: 1px solid #ddd; 
   margin: 5px 0; 
-  padding: 8px;
+  padding: 5px;
   border-radius: 4px; 
 }
 .description {
+  width: calc(100% - 25px); 
+  box-sizing: border-box; 
   color: var(--secondary-color);
   border: 1px solid #ddd; 
   margin: 5px 0; 
-  padding: 8px;
+  padding: 5px;
   border-radius: 4px; 
+  min-height: 10px;
+
 }
 
 .deleteButtonContainer {
@@ -82,4 +92,5 @@ export default {
   right: 0; 
   padding: 5px; 
 }
+
 </style>

@@ -22,7 +22,7 @@ export default {
   background-color: var(--button-color);
   color: var(--button-text-color);
   border: none;
-  padding: 10px 15px;
+  padding: 8px 10px;
   border-radius: 20px; 
   text-transform: uppercase; 
   font-weight: bold;
