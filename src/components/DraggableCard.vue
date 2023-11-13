@@ -20,11 +20,12 @@ export default {
     item: {
       type: Object,
       required: true,
-      //for proper implementation should have:
-      //id: number,
-      //title: 'Title',
-      //description: 'Description',
-      //list: number,
+      /*for proper implementation one should have:
+      id: number,
+      title: 'Title',
+      description: 'Description',
+      list: number,
+      */
     },
   },
   data() {
@@ -52,7 +53,7 @@ export default {
 
 <style scoped>
 .card {
-  max-width: 300px; /* or any other value that fits your design */
+  max-width: 300px;
   margin: auto;
   display: flex;
   flex-direction: column;

@@ -19,6 +19,7 @@ export default {
 
 <style scoped>
 .CustomButton {
+  display:flex;
   background-color: var(--button-color);
   color: var(--button-text-color);
   border: none;

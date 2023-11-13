@@ -31,10 +31,13 @@
 <style scoped>
 
 .drop-zone{
-  width: 50%;
+  width: 33%;
+    /* space inside component elements  */
+  padding: 10px;
+   /* space between components borders  */
   margin: 50px auto;
   background-color: #ecf0f1;
-  padding: 10px;
+  /* min height needed to drop items into  */
   min-height: 10px;
 }
 </style>

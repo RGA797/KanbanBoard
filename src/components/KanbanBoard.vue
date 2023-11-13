@@ -99,9 +99,10 @@ export default {
 
 <style>
 .drop-zones-container {
+  /* display requires */ 
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
 }
 
 </style>
