@@ -1,6 +1,7 @@
 <!-- kanban board component. 
   holds list of implemented cards and the drop zone functionality
   also implements a custom button for adding cards to the first list
+  made with the help of the following tutorial: https://www.youtube.com/watch?v=-kZLD40d-tI
   -->
 <template>
   <CustomButton text="Add Item" @click="addItemToList" />
